@@ -1,0 +1,7 @@
+run postgres
+postgres -D /usr/local/var/postgres
+stop postgres
+pg_ctl -D /usr/local/var/postgres stop -s -m fast
+
+export DATABASE_URL=postgres://localhost/projectdb
+export FLASK_APP=application.py
