@@ -1,0 +1,4 @@
+How to install psycopg2 on python 3
+download files from https://www.lfd.uci.edu/~gohlke/pythonlibs/#psycopg
+    32bit: psycopg2-2.7.5-cp37-cp37m-win32.whl 
+    64bit: psycopg2-2.7.5-cp37-cp37m-win_amd64.whl
